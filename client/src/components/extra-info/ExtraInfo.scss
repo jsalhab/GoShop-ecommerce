@@ -1,0 +1,43 @@
+.extra-info {
+  margin-top: 1rem;
+  padding: 4rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  .extra-info-badges {
+    display: flex;
+    justify-content: center;
+  }
+  .option-link {
+    height: 100px;
+    background: #f3f3f3;
+    border-right: solid 1px #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+  }
+  .info-icon {
+    color: #fe4c50;
+  }
+  .info {
+    padding-left: 12px;
+    h4,
+    p {
+      margin: 0;
+      @media only screen and (max-width: 767px) {
+        font-size: 12px;
+      }
+    }
+    p {
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 0;
+      color: #51545f;
+      @media only screen and (max-width: 767px) {
+        font-size: 11px;
+      }
+    }
+  }
+}

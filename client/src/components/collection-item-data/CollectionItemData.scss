@@ -1,0 +1,47 @@
+.collection-item-data {
+  .item-data {
+    display: flex;
+
+    h3 {
+      font-weight: 600;
+      font-size: 30px;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    div {
+      flex: 1 1 auto;
+      margin: 40px;
+    }
+    .img-conatiner {
+      box-shadow: 0 0.5rem 0.875rem 0 rgba(0, 0, 0, 0.2);
+      cursor: context-menu;
+
+      .image {
+        height: 500px;
+        width: 500px;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .image-modal {
+      }
+
+      div {
+        margin: 0;
+      }
+
+      button {
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    .add-to-cart {
+      width: 100%;
+    }
+
+    .delivery-available-container {
+      margin-bottom: 40px;
+    }
+  }
+}
